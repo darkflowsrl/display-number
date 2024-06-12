@@ -1,0 +1,17 @@
+---
+import DarkflowLogo from '../components/DarkflowLogo.astro';
+import Layout from '../layouts/Layout.astro';
+const { screen } = Astro.params;
+---
+
+<Layout title="DisplayNumber">
+
+	<h1
+		class=" text-9xl font-bold text-center text-white"
+	>
+		{screen}
+	</h1>	
+
+	<DarkflowLogo />
+
+</Layout>
